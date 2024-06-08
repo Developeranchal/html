@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Create Your Account</title>
+     <style>
+          body {
+               background-image: url("nature.jpeg")
+          }
+
+          .container {
+               height: 100vh;
+               width: 100%;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+          }
+
+          .form {
+               height: auto;
+               width: 30rem;
+               padding: 2rem;
+               background-color: palevioletred;
+               border-radius: 20px;
+               gap: 20px;
+          }
+
+          .form h1 {
+               text-align: center;
+               color: white;
+               text-transform: uppercase;
+          }
+
+          .form p {
+               color: white;
+               text-transform: lowercase;
+          }
+
+          .form span {
+               color: blue;
+               text-transform: lowercase;
+          }
+
+
+          .input-box {
+               height: 60px;
+               width: 80%;
+               display: flex;
+               gap: 20px;
+          }
+
+          .input-box div {
+               width: 100%;
+               height: 20px;
+
+          }
+
+
+          .input-box div input {
+               width: 100%;
+               height: 20px;
+               background-color: transparent;
+               color: wheat;
+               border: 1px solid whitesmoke;
+
+          }
+
+          .gender-box {
+               width: 100%;
+               height: 10px;
+               display: flex;
+               align-items: center;
+               gap: 20px;
+          }
+
+          .gender-box div input {
+               height: 10px;
+          }
+
+          .email-box {
+               width: 100%;
+               height: 20px;
+               background-color: transparent;
+               color: wheat;
+               border: 1px solid whitesmoke;
+               margin-bottom: 10px;
+          }
+
+          select {
+               border: 1px solid whitesmoke;
+               height: 100%;
+               width: 100%;
+               background-color: transparent;
+
+          }
+
+          .password-box {
+               background-color: transparent;
+               border: 1px solid whitesmoke;
+               width: 100%;
+               align-items: center;
+          }
+
+          .div span {
+               color: red;
+          }
+
+          .button-signup button {
+               width: 100%;
+               height: 30px;
+
+               background-color: darkblue;
+               border-radius: 20px;
+               color: white;
+
+
+          }
+     </style>
+</head>
+
+<body>
+     <div class="container">
+          <div class="form">
+               <h1>Create Your Account</h1>
+               <p>Start your website in seconds.Already have an account?<span>Log in</span></p>
+               <div class="input-box">
+                    <div>
+                         <label for="">Name</label><br>
+                         <input type="text" placeholder="e.g.your Full Name">
+                    </div>
+
+                    <div>
+                         <label for="">Phone</label><br>
+                         <input type="text" placeholder="+91 0000000">
+                    </div>
+               </div>
+               <div class="input-box">
+                    <div>
+                         <label for="">Salary</label><br>
+                         <input type="text" placeholder="e.g.Your Salary">
+                    </div>
+                    <div>
+                         <label for="">Gender</label><br>
+                         <div class="gender-box">
+
+                              <label for="">Male</label>
+                              <input type="radio" placeholder="" name="a">
+                              <label for="">Female</label>
+                              <input type="radio" placeholder="" name="a">
+
+                         </div>
+                    </div>
+
+               </div>
+               <label for="">Team</label><br>
+               <select>
+                    <option value=""> webv Developer</option>
+               </select>
+               <div class="input-box1">
+                    <label for="">Email</label><br>
+                    <input type="text" placeholder="email" class="email-box">
+               </div>
+               <div class="input-box1">
+
+
+               </div>
+               <label for="">Support</label>
+               <input type="radio" placeholder="" name="a">
+               <label for="">Developer</label>
+               <input type="radio" placeholder="" name="a">
+               <div class="div">
+                    <span>(Password 6 characters minimum)</span>
+
+                    <div class="input-box">
+                         <div>
+                              <label for="">Password</label><br>
+                              <input type="text" placeholder="**********">
+                         </div>
+
+                         <div>
+                              <label for="">Confirm password</label><br>
+                              <input type="text" placeholder="*******">
+                         </div>
+                    </div>
+
+                    <p>Avater<button>Choose file</button>no file selected</p>
+                    <div class="button-signup">
+                         <button>Sign up</button>
+
+                    </div>
+               </div>
+
+          </div>
+
+
+</body>
+
+</html>

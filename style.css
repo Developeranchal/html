@@ -1,0 +1,11 @@
+*{
+    background-color: blueviolet;
+    color: yellow;
+}
+li a{
+    color: white;
+    background-color: red;
+}
+a+ul{
+    color: red;
+}
